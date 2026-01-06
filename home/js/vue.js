@@ -1,9 +1,17 @@
- const app = Vue.createApp({
+const app2 = Vue.createApp({
    data() {
     return {
-     message: "Happy New Year"
+      manyFoods: [
+        'https://www.w3schools.com/vue/img_burrito.svg',
+        'https://www.w3schools.com/vue/img_salad.svg',
+        'https://www.w3schools.com/vue/img_cake.svg',
+        'https://www.w3schools.com/vue/img_soup.svg',
+        'https://www.w3schools.com/vue/img_fish.svg',
+        'https://www.w3schools.com/vue/img_pizza.svg',
+        'https://www.w3schools.com/vue/img_rice.svg'
+      ]
     }
    }
   })
   
-  app.mount('#app')
+  app2.mount('#app')
