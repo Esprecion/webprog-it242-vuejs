@@ -1,7 +1,7 @@
  const app = Vue.createApp({
    data() {
     return {
-     message: "Happy New Year!?!"
+     message: "Happy New Year"
     }
    }
   })
