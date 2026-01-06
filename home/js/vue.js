@@ -1,3 +1,17 @@
+
+  const app = Vue.createApp({
+   data() {
+    return {
+     message: "Hello World WEBPROG IT242!"
+    }
+   }
+  })
+ 
+  app.mount('#app')
+ 
+ 
+ 
+
 const app2 = Vue.createApp({
    data() {
     return {
