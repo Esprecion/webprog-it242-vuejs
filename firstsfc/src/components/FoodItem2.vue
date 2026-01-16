@@ -9,8 +9,8 @@
 export default {
   data() {
     return {
-      name: 'The Apples',
-      message: 'dont fall to far from the tree'
+      name: 'The Dango',
+      message: 'Squishy and different colors'
     }
   }
 };
@@ -22,6 +22,6 @@ export default {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: lightgreen;
+    background-color: Pistachio;
   }
   </style>
