@@ -1,20 +1,57 @@
-.bold-text {
-  font-weight: bold;
+/* --- SURVIVAL THEME --- */
+body { 
+    background-color: #0d0d0d; 
+    color: #d1d1d1; 
+    font-family: 'Inter', sans-serif; 
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png'); /* Gritty overlay */
 }
 
-body {
-  background-color: #337def;
-}
+h1, h2, .logo, .btn-primary { font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 2px; }
 
-h1 {
-  color: #fcc729;
-  margin-left: 20px;
-  text-align: center;
-  font-size: 40px;
-}
+.grunge-text { color: #f0f0f0; text-shadow: 2px 2px #000; font-size: 2.5rem; }
 
-body {
-  color: #000000;
-  font-size: 18px;
+.blood-line { border: 0; height: 2px; background: linear-gradient(to right, #8b0000, transparent); margin: 10px 0 30px; }
 
-}
+.stamped { font-family: 'Special Elite', cursive; color: #CCAA00; opacity: 0.8; }
+
+/* --- NAV --- */
+.navbar { background: rgba(0,0,0,0.95); border-bottom: 2px solid #222; padding: 15px 0; position: fixed; width: 100%; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; }
+.logo { margin-left: 5% ; color: #CCAA00; font-size: 1.2rem; }
+.nav-links { display: flex; list-style: none; margin-right: 5% ; }
+.nav-links li { margin-left: 20px; }
+.nav-links a { text-decoration: none; color: #888; font-size: 12px; transition: 0.3s; }
+.nav-links a:hover { color: #8b0000; }
+
+/* --- HERO --- */
+.hero { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://i.pinimg.com/736x/aa/c0/80/aac080118e4fd9205346b0965d78d94c.jpg'); background-size: cover; background-attachment: fixed; }
+.hero h1 { font-size: 4rem; margin: 0; color: #fff; }
+.subtitle { font-family: 'Special Elite'; color: #CCAA00; }
+
+/* --- CONTAINERS & CARDS --- */
+.container { padding: 100px 10%; }
+.survival-box, .survival-card { background: #151515; border: 1px solid #333; padding: 25px; border-radius: 2px; position: relative; }
+.survival-card { border-top: 3px solid #CCAA00; }
+.skill-tag { background: #222; border: 1px solid #CCAA00; color: #CCAA00; padding: 5px 10px; margin: 4px; display: inline-block; font-family: 'Special Elite'; font-size: 10px; }
+
+/* --- GALLERY --- */
+.carousel-container { display: flex; gap: 15px; overflow-x: auto; padding-bottom: 20px; }
+.carousel-item { flex: 0 0 300px; aspect-ratio: 16/9; position: relative; border: 2px solid #222; cursor: pointer; transition: 0.3s; }
+.carousel-item:hover { border-color: #8b0000; }
+.carousel-item img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(30%); }
+.overlay { position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(139,0,0,0.6); display: flex; align-items: center; justify-content: center; opacity: 0; transition: 0.3s; }
+.carousel-item:hover .overlay { opacity: 1; }
+
+/* --- GUESTBOOK --- */
+.comment-form input, .comment-form textarea { background: #111; border: 1px solid #444; color: #fff; padding: 12px; font-family: 'Special Elite'; width: 100%; margin-bottom: 10px; box-sizing: border-box;}
+.danger-btn { border-color: #8b0000; color: #8b0000; }
+.danger-btn:hover { background: #8b0000; color: #fff; }
+.typewriter { font-family: 'Special Elite'; color: #aaa; }
+
+/* --- LIGHTBOX --- */
+.vue-lightbox { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.95); z-index: 2000; display: flex; align-items: center; justify-content: center; }
+.vue-lightbox img { max-width: 85%; border: 3px solid #8b0000; box-shadow: 0 0 30px #8b0000; }
+.close { position: absolute; top: 20px; right: 40px; color: #fff; font-size: 40px; cursor: pointer; }
+
+footer { text-align: center; padding: 50px; font-family: 'Special Elite'; font-size: 10px; color: #444; border-top: 1px solid #222; }
+
+@media (max-width: 768px) { .about-flex { flex-direction: column; } }
