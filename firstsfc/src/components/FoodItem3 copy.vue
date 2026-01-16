@@ -9,8 +9,8 @@
 export default {
   data() {
     return {
-      name: 'The Dango',
-      message: 'Squishy and different colors like the rainbow'
+      name: 'The Caviar',
+      message: 'caviar is said to be a rich person food'
     }
   }
 };
@@ -22,6 +22,6 @@ export default {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: pink;
+    background-color: #3E2723;
   }
   </style>

@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       name: 'The Apples',
-      message: 'dont fall to far from the tree'
+      message: 'dont fall too far from the tree'
     }
   }
 };
