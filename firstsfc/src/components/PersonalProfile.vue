@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survival Portfolio | Ashlee Dan Esprecion</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/Personalprofile.css">
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Oswald:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
