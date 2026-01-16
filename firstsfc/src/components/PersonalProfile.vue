@@ -1,6 +1,6 @@
 <template>
 <head>
-  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="stylesheet" href="css/Personalprofile.css">
 <title>WEBPROG IT242 Introductions</title>
 </head>
 <body>
@@ -29,4 +29,4 @@ Make a Game, Get Successful , and Get Wealthy<br>
 </body>
 </template>
 <script></script>
-<style src = "./css/Personalprofile.css"
+<style src = ".../css/Personalprofile.css"
