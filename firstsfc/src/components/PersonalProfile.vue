@@ -1,26 +1,29 @@
 <template>
 <head>
-<title>WEBPROG IT242 Introductions Ashlee Dan Esprecion</title>
+  <link rel="stylesheet" href="css/mystyle.css">
+<title>WEBPROG IT242 Introductions</title>
 </head>
 <body>
 <h1>Personal Profile Web page </h1>
 <p>
-About Me:<br>
-( Do not include birthdate / age / contact information)<br>
-Education / Achievements<br>
-  High School: Urdaneta City National HIgh School 2024<br>
-   
-Course: <br>
-  BS Information Technology<br>
-  
-IT Experience<br>
-  UI/UX<br>
-  
-Hobbies & Interests:<br>
-  Playing games, Watching Videos, Listening to music
-Goals In Life / Dream<br>
-Picture Gallery<br>
-  <img src="https://ih1.redbubble.net/image.5155025331.7576/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u7.jpg" alt="Girl with a jacket" width="500" height="600">
+<p class = "bold-text">About Me</p>
+Name: Ashlee Dan Esprecion<br>
+
+Interesets: Italian food, Video Games, Music, ARG<br>
+
+<p class = "bold-text">Education / Achievements:</p>
+Senior High School: Urdaneta City National High School
+
+<p class = "bold-text">Course: </p>
+Bachelors of Science in Information Technology
+
+<p class = "bold-text">Goals In Life / Dream</p>
+Make a Game, Get Successful , and Get Wealthy<br>
+
+<p class = "bold-text">Picture Gallery</p>
+
+  <img src="https://miro.medium.com/v2/1*rIkmavUeqyRySwlQdA9kKg.jpeg" alt="Walter The Dog" width="500" height="600">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIoIp64paSsCfVYi8y_yhdSE4FelC6AkbyI3ccCmZo66-liCSir8-tq-o&s" alt="Walter The Dog" width="650" height="550">
 </p>
 
 </body>
