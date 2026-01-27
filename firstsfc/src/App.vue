@@ -2,7 +2,7 @@
   <h1>Food</h1>
   <Personalprofile/>
   <comment-form/>
-  <comment/>
+  <comments/>
   <food-item/>
 
 </template>
